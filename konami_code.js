@@ -22,9 +22,9 @@ function init() {
   document.body.addEventListener('keydown', function(event) {
 
 
-    const key = e.key;
+    const key = event.key;
 
-    if (key === alphabet[index]) {
+    if (key === codes[index]) {
       index++;
 
       if (index === alphabet.length) {
