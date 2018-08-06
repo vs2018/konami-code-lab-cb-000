@@ -39,3 +39,5 @@ function init() {
 })
 
 }
+
+init()
